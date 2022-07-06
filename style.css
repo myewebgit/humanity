@@ -8,25 +8,29 @@ body {
     height: 800px;
     width: 1340px;
 }
+
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .banner-text{
+}
+
+.banner-text {
     color: aqua;
-    font-size:70px ;
-    font-weight: bolder;
-    text-align: center;
-  }
-.banner-para{
-    color: aqua;
-    font-size:35px ;
+    font-size: 70px;
     font-weight: bolder;
     text-align: center;
 }
-.banner-btn{
+
+.banner-para {
+    color: aqua;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.banner-btn {
     background-color: red;
     padding: 10px;
     text-align: center;
@@ -62,7 +66,7 @@ body {
 
 .donation {
     display: inline-block;
- background-color: rgb(247, 235, 235);
+    background-color: rgb(247, 235, 235);
     border: rgb(245, 241, 241);
     padding: 40px 20px;
     font-size: 40px;
@@ -70,9 +74,10 @@ body {
     border-radius: 5px;
     margin-left: 10px;
 }
-.donat{
+
+.donat {
     display: inline-block;
- background-color: rgb(247, 235, 235);
+    background-color: rgb(247, 235, 235);
     border: rgb(245, 241, 241);
     padding: 40px 20px;
     font-size: 40px;
@@ -82,6 +87,7 @@ body {
     color: red;
     border: 2px solid red;
 }
+
 .donations {
     border: 2px solid red;
     padding: 40px 20px;
@@ -91,8 +97,8 @@ body {
     margin-left: 10px;
     color: red;
     background-color: grey;
-   
-  
+
+
 }
 
 .line {
@@ -118,6 +124,7 @@ body {
     width: 10%;
     margin-left: 600px;
 }
+
 /* **************** Donation Section Start*********** */
 
 
@@ -125,21 +132,25 @@ body {
     text-align: center;
     margin-bottom: 50px;
 }
-.sec-bg-col1{
+
+.sec-bg-col1 {
     background-color: rgb(187, 199, 199);
 }
-.sec-bg-col2{
+
+.sec-bg-col2 {
     background-color: rgb(182, 241, 241);
 }
-.sec-bg-col3{
+
+.sec-bg-col3 {
     background-color: rgba(129, 88, 78, 0.856);
 }
+
 .sections div {
     display: inline-block;
-        border-radius: 5px;
-            width: 30%;
-margin-left: 10px;
-padding: 5px;
+    border-radius: 5px;
+    width: 30%;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 .icon1 {
@@ -150,9 +161,9 @@ padding: 5px;
 
 .icon-title {
     font-size: 25px;
-text-align: left;
+    text-align: left;
     font-weight: bold;
-  
+
 }
 
 .icon-text {
@@ -161,27 +172,26 @@ text-align: left;
     text-align: left;
 }
 
-/* *********************Section style End********* */
-.text-img{
-    margin-bottom: 50px;
-   
+.bottom{
+    margin-top: 50px;
+    display: flex;
 }
-.text-img div{
-    display: inline-block;
-width: 40%;
-}
-.section-text{
-    font-size: 20px;
-   
-    margin-right: 100px;
-    margin-bottom: 0px;
-}
-.sec-img{
-    width: 50%;
-    height: 25%;
 
+.bottom img{
+    height: 350px;
+margin-left: 100px;
 }
-.sec-btn{
+.bottom-text{
+font-size: 20px;
+justify-content: space-between;
+margin-right: 100px;
+padding-bottom: 30px;
+padding-left: 50px;
+padding: auto;
+}
+
+
+.sec-btn {
     padding: 20px;
     font-size: larger;
     border-radius: 10px;
@@ -192,26 +202,21 @@ width: 40%;
 
 }
 
-.section-it{
-    margin-left: 100px;
 
-}
-.section-heading{
- vertical-align:auto;
-}
 
 /* ************Contact************ */
 
-.container{
-        width: 60%;
-    margin-left: 270px ;
+.container {
+    width: 60%;
+    margin-left: 270px;
     text-align: center;
     background-color: rgb(214, 214, 206);
     padding: 80px 20px;
     border-radius: 10px;
-    
+
 }
-.div1{
+
+.div1 {
     background-color: gray;
     width: 60%;
     float: left;
@@ -219,47 +224,35 @@ width: 40%;
     border-radius: 5px;
     font-size: 20px;
 
- 
-  }
-  .div11{
+
+}
+
+.div11 {
     background-color: rgb(219, 130, 130);
     float: right;
     width: 40%;
-   text-align: center;
-   border-radius: 5px;
-   font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
 
 
-  }
+}
 
- .contact{
+.contact {
     width: 60%;
     margin-left: 150px;
     padding: 0px;
- }
+}
 
 /* **footer**** */
-.footer{
+.footer {
     background-color: dimgrey;
-
-    font-size:xx-large ;
+    font-size: xx-large;
     text-align: center;
     font-style: italic;
     margin-top: 50px;
-  padding: 50px;
-  font-weight: bolder;
-    }
+    padding: 50px;
+    font-weight: bolder;
+}
 
-    .side-img{
-        margin-left: 100px;
-       
-    }
-    .text-img div{
-        display: inline-block;
-    }
-    .side{
-        margin-left: 150px;
-        padding-bottom: 50px;
-      
-    }
-     
+
